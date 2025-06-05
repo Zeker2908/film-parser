@@ -14,7 +14,7 @@ parser:
   page-size: 50
   timeout:
     ms: 5000
-  max-retries: 5
+  max-retries: 10
   selectors:
     movie: ".styles_root__ti07r"
     title: ".styles_mainTitle__IFQyZ"

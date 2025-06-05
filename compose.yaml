@@ -27,9 +27,11 @@ services:
       DB_HOST: postgres
       DB_USER: postgres
       DB_PASSWORD: postgres
-      MOVIE_COUNT: 1010
+      MOVIE_COUNT: 1000
     ports:
       - "8080:8080"
+    volumes:
+      - ./export:/app/export
     depends_on:
       - postgres
 volumes:
