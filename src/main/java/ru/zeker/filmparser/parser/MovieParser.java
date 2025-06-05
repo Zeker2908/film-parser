@@ -14,6 +14,8 @@ import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
 import ru.zeker.filmparser.dto.MovieMeta;
 import ru.zeker.filmparser.dto.MovieParseResult;
+import ru.zeker.filmparser.exception.CaptchaException;
+import ru.zeker.filmparser.exception.PageNotFoundException;
 
 import java.time.Duration;
 import java.util.ArrayList;
@@ -90,6 +92,10 @@ public class MovieParser {
 
                     pageProcessed = true;
                     break;
+                } catch (PageNotFoundException ex) {
+                    log.error("The page was not loaded because it does not exist");
+                    log.warn("Stopping the parser...");
+                    return results;
                 } catch (Exception ex) {
                     log.error("Error processing page {} (attempt {}): {}", url, attempt, ex.getMessage());
 
@@ -123,7 +129,12 @@ public class MovieParser {
 
         if (isCaptchaPage(Objects.requireNonNull(pageSource))) {
             log.warn("Captcha detected on page: {}", url);
-            throw new RuntimeException("CAPTCHA page detected!");
+            throw new CaptchaException("CAPTCHA page detected!");
+        }
+
+        if (isPageNotFound(pageSource)) {
+            log.warn("Page not found: {}", url);
+            throw new PageNotFoundException("Page not found");
         }
 
         Document doc = Jsoup.parse(pageSource);
@@ -147,12 +158,6 @@ public class MovieParser {
         }
 
         return pageResults;
-    }
-
-    private boolean isCaptchaPage(String pageSource) {
-        return pageSource.contains("captcha") ||
-                pageSource.contains("recaptcha") ||
-                pageSource.contains("Подтвердите, что вы не робот");
     }
 
     private MovieParseResult parseMovieElement(Element movieElement) {
@@ -195,6 +200,17 @@ public class MovieParser {
         try {
             Thread.sleep(min + (int)(Math.random() * (max - min)));
         } catch (InterruptedException ignored) {}
+    }
+
+    private boolean isCaptchaPage(String pageSource) {
+        return pageSource.contains("captcha") ||
+                pageSource.contains("recaptcha") ||
+                pageSource.contains("Подтвердите, что вы не робот");
+    }
+
+    private boolean isPageNotFound(String pageSource) {
+        return pageSource.contains("Ничего не найдено") ||
+                pageSource.contains("Попробуйте изменить параметры фильтра");
     }
 
 }
