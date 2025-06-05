@@ -2,25 +2,20 @@ package ru.zeker.filmparser.parser;
 
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
-import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
+import ru.zeker.filmparser.component.JsoupClient;
 import ru.zeker.filmparser.dto.MovieMeta;
 import ru.zeker.filmparser.dto.MovieParseResult;
 import ru.zeker.filmparser.exception.CaptchaException;
 import ru.zeker.filmparser.exception.PageNotFoundException;
 
-import java.time.Duration;
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Objects;
 import java.util.Optional;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
@@ -29,7 +24,7 @@ import java.util.regex.Pattern;
 @Slf4j
 @RequiredArgsConstructor
 public class MovieParser {
-    private final WebDriver driver;
+    private final JsoupClient jsoupClient;
 
     @Value("${parser.base-url}")
     private String baseUrl;
@@ -96,13 +91,16 @@ public class MovieParser {
                     log.error("The page was not loaded because it does not exist");
                     log.warn("Stopping the parser...");
                     return results;
-                } catch (Exception ex) {
+                } catch (CaptchaException ex) {
+                    log.warn("The page was not loaded because of a captcha");
                     log.error("Error processing page {} (attempt {}): {}", url, attempt, ex.getMessage());
-
                     if (attempt < maxRetries) {
                         log.info("Retrying in {} ms...", timeout);
                         randomDelay(timeout, timeout + 2000);
                     }
+                } catch (Exception ex) {
+                    log.error("Error processing page {}", ex.getMessage());
+                    return results;
                 }
             }
 
@@ -117,47 +115,44 @@ public class MovieParser {
     }
 
     private List<MovieParseResult> processPage(String url, int remainingCount) {
-        driver.get(url);
+        try {
+            Document doc = jsoupClient.fetchDocument(url);
 
-        new WebDriverWait(driver, Duration.ofMillis(timeout))
-                .until(ExpectedConditions.or(
-                        ExpectedConditions.presenceOfElementLocated(By.tagName("main")),
-                        ExpectedConditions.presenceOfElementLocated(By.id("captcha"))
-                ));
+            String pageSource = doc.html();
 
-        String pageSource = driver.getPageSource();
-
-        if (isCaptchaPage(Objects.requireNonNull(pageSource))) {
-            log.warn("Captcha detected on page: {}", url);
-            throw new CaptchaException("CAPTCHA page detected!");
-        }
-
-        if (isPageNotFound(pageSource)) {
-            log.warn("Page not found: {}", url);
-            throw new PageNotFoundException("Page not found");
-        }
-
-        Document doc = Jsoup.parse(pageSource);
-        Elements elements = doc.select(movieSelector);
-
-        if (elements.isEmpty()) {
-            log.warn("No movie elements found on page: {}", url);
-            throw new RuntimeException("No movie elements found");
-        }
-
-        List<MovieParseResult> pageResults = new ArrayList<>(remainingCount);
-        int count = 0;
-        for (Element movieElement : elements) {
-            if (count >= remainingCount) break;
-            try {
-                pageResults.add(parseMovieElement(movieElement));
-                count++;
-            } catch (Exception e) {
-                log.error("Error parsing movie element: {}", e.getMessage());
+            if (isCaptchaPage(pageSource)) {
+                log.warn("Captcha detected on page: {}", url);
+                throw new CaptchaException("CAPTCHA page detected!");
             }
-        }
 
-        return pageResults;
+            if (isPageNotFound(pageSource)) {
+                log.warn("Page not found: {}", url);
+                throw new PageNotFoundException("Page not found");
+            }
+
+            Elements elements = doc.select(movieSelector);
+            if (elements.isEmpty()) {
+                log.warn("No movie elements found on page: {}", url);
+                throw new RuntimeException("No movie elements found");
+            }
+
+            List<MovieParseResult> pageResults = new ArrayList<>(remainingCount);
+            int count = 0;
+            for (Element movieElement : elements) {
+                if (count >= remainingCount) break;
+                try {
+                    pageResults.add(parseMovieElement(movieElement));
+                    count++;
+                } catch (Exception e) {
+                    log.error("Error parsing movie element: {}", e.getMessage());
+                    log.debug("Stack trace: {}", (Object) e.getStackTrace());
+                }
+            }
+
+            return pageResults;
+        } catch (IOException e) {
+            throw new RuntimeException("Failed to connect to " + url + ": " + e.getMessage(), e);
+        }
     }
 
     private MovieParseResult parseMovieElement(Element movieElement) {
@@ -165,14 +160,14 @@ public class MovieParser {
         String originalTitle = Optional.of(movieElement.select(originalTitleSelector).text())
                 .filter(s -> !s.isEmpty())
                 .orElse(title);
-        Double rating = Double.parseDouble(movieElement.select(ratingSelector).text());
+        Double rating = parseRating(movieElement);
         String url = baseUrl + movieElement.select(urlSelector).attr("href");
         Integer year = parseYear(movieElement);
 
         Element metaElement = movieElement.selectFirst(metaSelector);
         MovieMeta movieMeta = MovieMeta.parseMeta(metaElement != null ? metaElement.text() : "");
 
-        log.info("Parsed movie: {}, {}, {}, {}, {}, {}, {}, {}", title, originalTitle, year, movieMeta.genre(), movieMeta.country(), movieMeta.director(), rating, url);
+        log.debug("Parsed movie: {}, {}, {}, {}, {}, {}, {}, {}", title, originalTitle, year, movieMeta.genre(), movieMeta.country(), movieMeta.director(), rating, url);
 
         return MovieParseResult.builder()
                 .title(title)
@@ -185,6 +180,15 @@ public class MovieParser {
                 .director(movieMeta.director())
                 .build();
 
+    }
+
+    private Double parseRating(Element movieElement) {
+        String rawText = movieElement.select(ratingSelector).text();
+        try {
+            return Double.parseDouble(rawText);
+        } catch (NumberFormatException e) {
+            return null;
+        }
     }
 
     private Integer parseYear(Element movieElement) {

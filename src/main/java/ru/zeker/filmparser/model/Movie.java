@@ -16,7 +16,7 @@ import java.util.Objects;
 @RequiredArgsConstructor
 @AllArgsConstructor
 @Table(name = "movies", indexes = {
-    @Index(name = "movie_url_idx", columnList = "url", unique = true),
+    @Index(name = "movie_url_idx", columnList = "url"),
     @Index(name = "movie_title_idx", columnList = "title"),
     @Index(name = "movie_genre_idx", columnList = "genre"),
     @Index(name = "movie_country_idx", columnList = "country"),
@@ -42,7 +42,7 @@ public class Movie {
     private String director;
     private Double rating;
 
-    @Column(nullable = false, unique = true)
+    @Column(nullable = false)
     private String url;
 
     @CreationTimestamp

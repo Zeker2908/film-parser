@@ -2,8 +2,7 @@
 FROM bellsoft/liberica-openjdk-alpine:21-cds AS builder
 WORKDIR /application
 COPY . .
-RUN --mount=type=cache,target=/root/.m2 \
-    chmod +x mvnw && ./mvnw clean install -Dmaven.test.skip
+RUN --mount=type=cache,target=/root/.m2 chmod +x mvnw && ./mvnw clean install -Dmaven.test.skip
 
 # === Извлечение Spring Boot layers ===
 FROM bellsoft/liberica-openjre-alpine:21-cds AS layers
@@ -11,21 +10,11 @@ WORKDIR /application
 COPY --from=builder /application/target/*.jar app.jar
 RUN java -Djarmode=tools -jar app.jar extract --layers --destination extracted
 
-# === Базовый слой с Chromium (кешируемо) ===
-FROM bellsoft/liberica-openjre-alpine:21-cds AS chromium-base
-RUN apk add --no-cache \
-    chromium \
-    chromium-chromedriver \
-    nss \
-    freetype \
-    harfbuzz \
-    ttf-freefont \
-    && adduser -S spring-user
-
-# === Финальный слой с приложением ===
-FROM chromium-base
+FROM bellsoft/liberica-openjre-alpine:21-cds
 VOLUME /tmp
+RUN adduser -S spring-user
 USER spring-user
+
 WORKDIR /application
 
 COPY --from=layers /application/extracted/dependencies/ ./

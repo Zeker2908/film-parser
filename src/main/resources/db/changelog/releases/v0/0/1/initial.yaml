@@ -1,7 +1,7 @@
 databaseChangeLog:
   - changeSet:
-      id: 1749065490299-1
-      author: Leonid 
+      id: 1749154460761-1
+      author: Leonid
       objectQuotingStrategy: QUOTE_ONLY_RESERVED_WORDS
       changes:
         - createSequence:
@@ -9,8 +9,8 @@ databaseChangeLog:
             sequenceName: movie_seq
             startValue: 1
   - changeSet:
-      id: 1749065490299-2
-      author: Leonid 
+      id: 1749154460761-2
+      author: Leonid
       objectQuotingStrategy: QUOTE_ONLY_RESERVED_WORDS
       changes:
         - createTable:
@@ -57,17 +57,8 @@ databaseChangeLog:
                   type: DATETIME
             tableName: movies
   - changeSet:
-      id: 1749065490299-3
-      author: Leonid 
-      objectQuotingStrategy: QUOTE_ONLY_RESERVED_WORDS
-      changes:
-        - addUniqueConstraint:
-            columnNames: url
-            constraintName: UC_MOVIES_URL
-            tableName: movies
-  - changeSet:
-      id: 1749065490299-4
-      author: Leonid 
+      id: 1749154460761-3
+      author: Leonid
       objectQuotingStrategy: QUOTE_ONLY_RESERVED_WORDS
       changes:
         - createIndex:
@@ -77,8 +68,8 @@ databaseChangeLog:
             indexName: movie_country_idx
             tableName: movies
   - changeSet:
-      id: 1749065490299-5
-      author: Leonid 
+      id: 1749154460761-4
+      author: Leonid
       objectQuotingStrategy: QUOTE_ONLY_RESERVED_WORDS
       changes:
         - createIndex:
@@ -88,8 +79,8 @@ databaseChangeLog:
             indexName: movie_genre_idx
             tableName: movies
   - changeSet:
-      id: 1749065490299-6
-      author: Leonid 
+      id: 1749154460761-5
+      author: Leonid
       objectQuotingStrategy: QUOTE_ONLY_RESERVED_WORDS
       changes:
         - createIndex:
@@ -99,8 +90,8 @@ databaseChangeLog:
             indexName: movie_title_idx
             tableName: movies
   - changeSet:
-      id: 1749065490299-7
-      author: Leonid 
+      id: 1749154460761-6
+      author: Leonid
       objectQuotingStrategy: QUOTE_ONLY_RESERVED_WORDS
       changes:
         - createIndex:
@@ -109,10 +100,9 @@ databaseChangeLog:
                   name: url
             indexName: movie_url_idx
             tableName: movies
-            unique: true
   - changeSet:
-      id: 1749065490299-8
-      author: Leonid 
+      id: 1749154460761-7
+      author: Leonid
       objectQuotingStrategy: QUOTE_ONLY_RESERVED_WORDS
       changes:
         - createIndex:
@@ -121,4 +111,5 @@ databaseChangeLog:
                   name: year
             indexName: movie_year_idx
             tableName: movies
+
 
