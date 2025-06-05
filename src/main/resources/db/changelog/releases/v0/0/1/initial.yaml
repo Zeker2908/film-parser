@@ -1,0 +1,124 @@
+databaseChangeLog:
+  - changeSet:
+      id: 1749065490299-1
+      author: Leonid 
+      objectQuotingStrategy: QUOTE_ONLY_RESERVED_WORDS
+      changes:
+        - createSequence:
+            incrementBy: 100
+            sequenceName: movie_seq
+            startValue: 1
+  - changeSet:
+      id: 1749065490299-2
+      author: Leonid 
+      objectQuotingStrategy: QUOTE_ONLY_RESERVED_WORDS
+      changes:
+        - createTable:
+            columns:
+              - column:
+                  constraints:
+                    nullable: false
+                    primaryKey: true
+                    primaryKeyName: pk_movies
+                  name: id
+                  type: BIGINT
+              - column:
+                  constraints:
+                    nullable: false
+                  name: title
+                  type: VARCHAR(255)
+              - column:
+                  name: original_title
+                  type: VARCHAR(255)
+              - column:
+                  name: genre
+                  type: VARCHAR(255)
+              - column:
+                  name: country
+                  type: VARCHAR(255)
+              - column:
+                  name: year
+                  type: INT
+              - column:
+                  name: director
+                  type: VARCHAR(255)
+              - column:
+                  name: rating
+                  type: DOUBLE
+              - column:
+                  constraints:
+                    nullable: false
+                  name: url
+                  type: VARCHAR(255)
+              - column:
+                  constraints:
+                    nullable: false
+                  name: parsed_at
+                  type: DATETIME
+            tableName: movies
+  - changeSet:
+      id: 1749065490299-3
+      author: Leonid 
+      objectQuotingStrategy: QUOTE_ONLY_RESERVED_WORDS
+      changes:
+        - addUniqueConstraint:
+            columnNames: url
+            constraintName: UC_MOVIES_URL
+            tableName: movies
+  - changeSet:
+      id: 1749065490299-4
+      author: Leonid 
+      objectQuotingStrategy: QUOTE_ONLY_RESERVED_WORDS
+      changes:
+        - createIndex:
+            columns:
+              - column:
+                  name: country
+            indexName: movie_country_idx
+            tableName: movies
+  - changeSet:
+      id: 1749065490299-5
+      author: Leonid 
+      objectQuotingStrategy: QUOTE_ONLY_RESERVED_WORDS
+      changes:
+        - createIndex:
+            columns:
+              - column:
+                  name: genre
+            indexName: movie_genre_idx
+            tableName: movies
+  - changeSet:
+      id: 1749065490299-6
+      author: Leonid 
+      objectQuotingStrategy: QUOTE_ONLY_RESERVED_WORDS
+      changes:
+        - createIndex:
+            columns:
+              - column:
+                  name: title
+            indexName: movie_title_idx
+            tableName: movies
+  - changeSet:
+      id: 1749065490299-7
+      author: Leonid 
+      objectQuotingStrategy: QUOTE_ONLY_RESERVED_WORDS
+      changes:
+        - createIndex:
+            columns:
+              - column:
+                  name: url
+            indexName: movie_url_idx
+            tableName: movies
+            unique: true
+  - changeSet:
+      id: 1749065490299-8
+      author: Leonid 
+      objectQuotingStrategy: QUOTE_ONLY_RESERVED_WORDS
+      changes:
+        - createIndex:
+            columns:
+              - column:
+                  name: year
+            indexName: movie_year_idx
+            tableName: movies
+

@@ -1,0 +1,36 @@
+services:
+  postgres:
+    image: 'postgres:latest'
+    environment:
+      - 'POSTGRES_DB=kinopoisk'
+      - 'POSTGRES_PASSWORD=postgres'
+      - 'POSTGRES_USER=postgres'
+    ports:
+      - '5432:5432'
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    healthcheck:
+      test: pg_isready -U $$POSTGRES_USER -d $$POSTGRES_DB
+      interval: 10s
+      timeout: 5s
+      start_period: 10s
+      retries: 5
+  film-parser:
+    image: film-parser:latest
+    build:
+      context: .
+      args:
+        DOCKER_BUILDKIT: 1
+    restart: "no"
+    environment:
+      SPRING_PROFILES_ACTIVE: prod
+      DB_HOST: postgres
+      DB_USER: postgres
+      DB_PASSWORD: postgres
+      MOVIE_COUNT: 1010
+    ports:
+      - "8080:8080"
+    depends_on:
+      - postgres
+volumes:
+  postgres_data:
