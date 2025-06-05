@@ -25,8 +25,8 @@ public class MovieService {
     private final ObjectMapper objectMapper;
 
     @Transactional
-    public int parseAndSave(int movieCount) {
-        List<MovieParseResult> results = movieParser.parse(movieCount);
+    public int parseAndSave(int movieCount, int startPage) {
+        List<MovieParseResult> results = movieParser.parse(movieCount, startPage);
         log.info("Parsed {} movies", results.size());
         List<String> urls = results.stream().map(MovieParseResult::getUrl).toList();
         Set<String> existingUrls = movieRepository.findUrlsIn(urls);

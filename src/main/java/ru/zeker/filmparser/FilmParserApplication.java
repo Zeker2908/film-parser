@@ -23,13 +23,16 @@ public class FilmParserApplication implements CommandLineRunner {
     @Value("${parser.movieCount}")
     private int movieCount;
 
+    @Value("${parser.startPage}")
+    private int startPage;
+
     public static void main(String[] args) {
         SpringApplication.run(FilmParserApplication.class, args);
     }
 
     @Override
     public void run(String... args) throws IOException {
-       int results = movieService.parseAndSave(movieCount);
+       int results = movieService.parseAndSave(movieCount, startPage);
        log.info("Saved {} movies", results);
        movieService.exportAllMoviesToJsonFile("movies.json");
        log.info("Parser finished");

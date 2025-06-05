@@ -9,6 +9,7 @@ spring:
 
 parser:
   movieCount: ${MOVIE_COUNT:1000}
+  startPage: ${START_PAGE:1}
   base-url: https://www.kinopoisk.ru
   films-url: /lists/movies/?b=films
   page-size: 50

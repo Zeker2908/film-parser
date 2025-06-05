@@ -67,15 +67,16 @@ public class MovieParser {
 
 
 
-    public List<MovieParseResult> parse(int movieCount) {
+    public List<MovieParseResult> parse(int movieCount, int startPage) {
         List<MovieParseResult> results = new ArrayList<>(movieCount);
         int pageCount = (movieCount + pageSize - 1) / pageSize;
         int parsed = 0;
+        int currentPage = startPage;
 
         log.info("Start parsing. Pages needed: {}", pageCount);
 
-        for (int i = 1; i <= pageCount; i++) {
-            String url = String.format("%s%s&page=%d", baseUrl, filmsUrl, i);
+        while (parsed < movieCount) {
+            String url = String.format("%s%s&page=%d", baseUrl, filmsUrl, currentPage);
 
             boolean pageProcessed = false;
             for (int attempt = 1; attempt <= maxRetries; attempt++) {
@@ -102,6 +103,8 @@ public class MovieParser {
             if (!pageProcessed) {
                 log.error("Failed to process page {} after {} attempts", url, maxRetries);
             }
+
+            currentPage++;
         }
 
         return results;
@@ -112,13 +115,14 @@ public class MovieParser {
 
         new WebDriverWait(driver, Duration.ofMillis(timeout))
                 .until(ExpectedConditions.or(
-                        ExpectedConditions.presenceOfElementLocated(By.tagName("body")),
+                        ExpectedConditions.presenceOfElementLocated(By.tagName("main")),
                         ExpectedConditions.presenceOfElementLocated(By.id("captcha"))
                 ));
 
         String pageSource = driver.getPageSource();
 
         if (isCaptchaPage(Objects.requireNonNull(pageSource))) {
+            log.warn("Captcha detected on page: {}", url);
             throw new RuntimeException("CAPTCHA page detected!");
         }
 
