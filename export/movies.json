@@ -359,6 +359,15 @@
   "rating" : 8.6,
   "url" : "https://www.kinopoisk.ru/film/46225/"
 }, {
+  "title" : "Игра",
+  "originalTitle" : "The Game",
+  "genre" : "триллер",
+  "country" : "США",
+  "year" : 1997,
+  "director" : "Дэвид Финчер",
+  "rating" : 8.3,
+  "url" : "https://www.kinopoisk.ru/film/12198/"
+}, {
   "title" : "Субстанция",
   "originalTitle" : "The Substance",
   "genre" : "ужасы",
@@ -1349,6 +1358,456 @@
   "rating" : 8.4,
   "url" : "https://www.kinopoisk.ru/film/725190/"
 }, {
+  "title" : "Укрощение строптивого",
+  "originalTitle" : "Il bisbetico domato",
+  "genre" : "мелодрама",
+  "country" : "Италия",
+  "year" : 1980,
+  "director" : "Франко Кастеллано",
+  "rating" : 8.4,
+  "url" : "https://www.kinopoisk.ru/film/63912/"
+}, {
+  "title" : "Карты, деньги, два ствола",
+  "originalTitle" : "Lock, Stock and Two Smoking Barrels",
+  "genre" : "боевик",
+  "country" : "Великобритания",
+  "year" : 1998,
+  "director" : "Гай Ричи",
+  "rating" : 8.6,
+  "url" : "https://www.kinopoisk.ru/film/522/"
+}, {
+  "title" : "Тор: Рагнарёк",
+  "originalTitle" : "Thor: Ragnarok",
+  "genre" : "фантастика",
+  "country" : "США",
+  "year" : 2017,
+  "director" : "Тайка Вайтити",
+  "rating" : 7.7,
+  "url" : "https://www.kinopoisk.ru/film/822709/"
+}, {
+  "title" : "Ирония судьбы, или С легким паром!",
+  "originalTitle" : "Ирония судьбы, или С легким паром!",
+  "genre" : "мелодрама",
+  "country" : "СССР",
+  "year" : 1975,
+  "director" : "Эльдар Рязанов",
+  "rating" : 8.2,
+  "url" : "https://www.kinopoisk.ru/film/77331/"
+}, {
+  "title" : "В бой идут одни «старики»",
+  "originalTitle" : "В бой идут одни «старики»",
+  "genre" : "военный",
+  "country" : "СССР",
+  "year" : 1973,
+  "director" : "Леонид Быков",
+  "rating" : 8.7,
+  "url" : "https://www.kinopoisk.ru/film/25108/"
+}, {
+  "title" : "Человек-паук: Вдали от дома",
+  "originalTitle" : "Spider-Man: Far from Home",
+  "genre" : "фантастика",
+  "country" : "США",
+  "year" : 2019,
+  "director" : "Джон Уоттс",
+  "rating" : 7.4,
+  "url" : "https://www.kinopoisk.ru/film/1008445/"
+}, {
+  "title" : "Вторая жизнь Уве",
+  "originalTitle" : "En man som heter Ove",
+  "genre" : "драма",
+  "country" : "Швеция",
+  "year" : 2015,
+  "director" : "Ханнес Холм",
+  "rating" : 8.3,
+  "url" : "https://www.kinopoisk.ru/film/848894/"
+}, {
+  "title" : "Дурак",
+  "originalTitle" : "Дурак",
+  "genre" : "драма",
+  "country" : "Россия",
+  "year" : 2014,
+  "director" : "Юрий Быков",
+  "rating" : 8.1,
+  "url" : "https://www.kinopoisk.ru/film/808639/"
+}, {
+  "title" : "Догмен",
+  "originalTitle" : "Dogman",
+  "genre" : "драма",
+  "country" : "Франция",
+  "year" : 2023,
+  "director" : "Люк Бессон",
+  "rating" : 7.7,
+  "url" : "https://www.kinopoisk.ru/film/4922959/"
+}, {
+  "title" : "Аквамен",
+  "originalTitle" : "Aquaman",
+  "genre" : "фэнтези",
+  "country" : "США",
+  "year" : 2018,
+  "director" : "Джеймс Ван",
+  "rating" : 6.8,
+  "url" : "https://www.kinopoisk.ru/film/470178/"
+}, {
+  "title" : "Алеша Попович и Тугарин Змей",
+  "originalTitle" : "Алеша Попович и Тугарин Змей",
+  "genre" : "мультфильм",
+  "country" : "Россия",
+  "year" : 2004,
+  "director" : "Константин Бронзит",
+  "rating" : 8.0,
+  "url" : "https://www.kinopoisk.ru/film/81041/"
+}, {
+  "title" : "Стражи Галактики. Часть 2",
+  "originalTitle" : "Guardians of the Galaxy Vol. 2",
+  "genre" : "фантастика",
+  "country" : "США",
+  "year" : 2017,
+  "director" : "Джеймс Ганн",
+  "rating" : 7.8,
+  "url" : "https://www.kinopoisk.ru/film/841263/"
+}, {
+  "title" : "Я – легенда",
+  "originalTitle" : "I Am Legend",
+  "genre" : "ужасы",
+  "country" : "США",
+  "year" : 2007,
+  "director" : "Фрэнсис Лоуренс",
+  "rating" : 7.9,
+  "url" : "https://www.kinopoisk.ru/film/195524/"
+}, {
+  "title" : "Движение вверх",
+  "originalTitle" : "Движение вверх",
+  "genre" : "спорт",
+  "country" : "Россия",
+  "year" : 2017,
+  "director" : "Антон Мегердичев",
+  "rating" : 7.5,
+  "url" : "https://www.kinopoisk.ru/film/840817/"
+}, {
+  "title" : "Гарри Поттер и Орден Феникса",
+  "originalTitle" : "Harry Potter and the Order of the Phoenix",
+  "genre" : "фэнтези",
+  "country" : "Великобритания",
+  "year" : 2007,
+  "director" : "Дэвид Йейтс",
+  "rating" : 7.8,
+  "url" : "https://www.kinopoisk.ru/film/48356/"
+}, {
+  "title" : "Исходный код",
+  "originalTitle" : "Source Code",
+  "genre" : "фантастика",
+  "country" : "США",
+  "year" : 2011,
+  "director" : "Дункан Джонс",
+  "rating" : 7.8,
+  "url" : "https://www.kinopoisk.ru/film/409295/"
+}, {
+  "title" : "Гарри Поттер и Принц-полукровка",
+  "originalTitle" : "Harry Potter and the Half-Blood Prince",
+  "genre" : "фэнтези",
+  "country" : "Великобритания",
+  "year" : 2009,
+  "director" : "Дэвид Йейтс",
+  "rating" : 7.8,
+  "url" : "https://www.kinopoisk.ru/film/89515/"
+}, {
+  "title" : "Отряд самоубийц",
+  "originalTitle" : "Suicide Squad",
+  "genre" : "фантастика",
+  "country" : "США",
+  "year" : 2016,
+  "director" : "Дэвид Эйр",
+  "rating" : 6.1,
+  "url" : "https://www.kinopoisk.ru/film/468522/"
+}, {
+  "title" : "Отель «Гранд Будапешт»",
+  "originalTitle" : "The Grand Budapest Hotel",
+  "genre" : "комедия",
+  "country" : "США",
+  "year" : 2014,
+  "director" : "Уэс Андерсон",
+  "rating" : 7.9,
+  "url" : "https://www.kinopoisk.ru/film/683999/"
+}, {
+  "title" : "Дивергент",
+  "originalTitle" : "Divergent",
+  "genre" : "фантастика",
+  "country" : "США",
+  "year" : 2014,
+  "director" : "Нил Бёргер",
+  "rating" : 6.8,
+  "url" : "https://www.kinopoisk.ru/film/582101/"
+}, {
+  "title" : "Черный ящик",
+  "originalTitle" : "Boîte noire",
+  "genre" : "детектив",
+  "country" : "Франция",
+  "year" : 2020,
+  "director" : "Ян Гозлан",
+  "rating" : 7.6,
+  "url" : "https://www.kinopoisk.ru/film/1368311/"
+}, {
+  "title" : "Бременские музыканты",
+  "originalTitle" : "Бременские музыканты",
+  "genre" : "приключения",
+  "country" : "Россия",
+  "year" : 2023,
+  "director" : "Алексей Нужный",
+  "rating" : 7.4,
+  "url" : "https://www.kinopoisk.ru/film/5047464/"
+}, {
+  "title" : "Гордость и предубеждение",
+  "originalTitle" : "Pride & Prejudice",
+  "genre" : "драма",
+  "country" : "Великобритания",
+  "year" : 2005,
+  "director" : "Джо Райт",
+  "rating" : 8.2,
+  "url" : "https://www.kinopoisk.ru/film/81733/"
+}, {
+  "title" : "Список Шиндлера",
+  "originalTitle" : "Schindler's List",
+  "genre" : "драма",
+  "country" : "США",
+  "year" : 1993,
+  "director" : "Стивен Спилберг",
+  "rating" : 8.8,
+  "url" : "https://www.kinopoisk.ru/film/329/"
+}, {
+  "title" : "День сурка",
+  "originalTitle" : "Groundhog Day",
+  "genre" : "фэнтези",
+  "country" : "США",
+  "year" : 1993,
+  "director" : "Харольд Рэмис",
+  "rating" : 8.1,
+  "url" : "https://www.kinopoisk.ru/film/527/"
+}, {
+  "title" : "Загадочная история Бенджамина Баттона",
+  "originalTitle" : "The Curious Case of Benjamin Button",
+  "genre" : "драма",
+  "country" : "США",
+  "year" : 2008,
+  "director" : "Дэвид Финчер",
+  "rating" : 8.1,
+  "url" : "https://www.kinopoisk.ru/film/81555/"
+}, {
+  "title" : "Джон Уик",
+  "originalTitle" : "John Wick",
+  "genre" : "боевик",
+  "country" : "США",
+  "year" : 2014,
+  "director" : "Чад Стахелски",
+  "rating" : 7.0,
+  "url" : "https://www.kinopoisk.ru/film/762738/"
+}, {
+  "title" : "Kingsman: Секретная служба",
+  "originalTitle" : "Kingsman: The Secret Service",
+  "genre" : "боевик",
+  "country" : "Великобритания",
+  "year" : 2015,
+  "director" : "Мэттью Вон",
+  "rating" : 7.7,
+  "url" : "https://www.kinopoisk.ru/film/749540/"
+}, {
+  "title" : "Шрэк 2",
+  "originalTitle" : "Shrek 2",
+  "genre" : "мультфильм",
+  "country" : "США",
+  "year" : 2004,
+  "director" : "Эндрю Адамсон",
+  "rating" : 8.0,
+  "url" : "https://www.kinopoisk.ru/film/5273/"
+}, {
+  "title" : "Эффект бабочки",
+  "originalTitle" : "The Butterfly Effect",
+  "genre" : "фантастика",
+  "country" : "США",
+  "year" : 2003,
+  "director" : "Эрик Бресс",
+  "rating" : 8.2,
+  "url" : "https://www.kinopoisk.ru/film/5167/"
+}, {
+  "title" : "Мадагаскар",
+  "originalTitle" : "Madagascar",
+  "genre" : "мультфильм",
+  "country" : "США",
+  "year" : 2005,
+  "director" : "Эрик Дарнелл",
+  "rating" : 8.0,
+  "url" : "https://www.kinopoisk.ru/film/6006/"
+}, {
+  "title" : "Отпуск по обмену",
+  "originalTitle" : "The Holiday",
+  "genre" : "мелодрама",
+  "country" : "США",
+  "year" : 2006,
+  "director" : "Нэнси Майерс",
+  "rating" : 7.9,
+  "url" : "https://www.kinopoisk.ru/film/104927/"
+}, {
+  "title" : "Вызов",
+  "originalTitle" : "Вызов",
+  "genre" : "драма",
+  "country" : "Россия",
+  "year" : 2023,
+  "director" : "Клим Шипенко",
+  "rating" : 7.9,
+  "url" : "https://www.kinopoisk.ru/film/4448519/"
+}, {
+  "title" : "Дэдпул 2",
+  "originalTitle" : "Deadpool 2",
+  "genre" : "фантастика",
+  "country" : "США",
+  "year" : 2018,
+  "director" : "Дэвид Литч",
+  "rating" : 7.4,
+  "url" : "https://www.kinopoisk.ru/film/961715/"
+}, {
+  "title" : "Игры разума",
+  "originalTitle" : "A Beautiful Mind",
+  "genre" : "биография",
+  "country" : "США",
+  "year" : 2001,
+  "director" : "Рон Ховард",
+  "rating" : 8.5,
+  "url" : "https://www.kinopoisk.ru/film/530/"
+}, {
+  "title" : "Темный рыцарь: Возрождение легенды",
+  "originalTitle" : "The Dark Knight Rises",
+  "genre" : "фантастика",
+  "country" : "США",
+  "year" : 2012,
+  "director" : "Кристофер Нолан",
+  "rating" : 8.2,
+  "url" : "https://www.kinopoisk.ru/film/437410/"
+}, {
+  "title" : "Славные парни",
+  "originalTitle" : "The Nice Guys",
+  "genre" : "криминал",
+  "country" : "США",
+  "year" : 2016,
+  "director" : "Шейн Блэк",
+  "rating" : 7.3,
+  "url" : "https://www.kinopoisk.ru/film/841152/"
+}, {
+  "title" : "Гарри Поттер и Дары Смерти: Часть I",
+  "originalTitle" : "Harry Potter and the Deathly Hallows - Part 1",
+  "genre" : "фэнтези",
+  "country" : "Великобритания",
+  "year" : 2010,
+  "director" : "Дэвид Йейтс",
+  "rating" : 7.9,
+  "url" : "https://www.kinopoisk.ru/film/276762/"
+}, {
+  "title" : "Жмурки",
+  "originalTitle" : "Жмурки",
+  "genre" : "комедия",
+  "country" : "Россия",
+  "year" : 2005,
+  "director" : "Алексей Балабанов",
+  "rating" : 7.3,
+  "url" : "https://www.kinopoisk.ru/film/84830/"
+}, {
+  "title" : "Гадкий я",
+  "originalTitle" : "Despicable Me",
+  "genre" : "мультфильм",
+  "country" : "США",
+  "year" : 2010,
+  "director" : "Пьер Коффан",
+  "rating" : 7.8,
+  "url" : "https://www.kinopoisk.ru/film/432724/"
+}, {
+  "title" : "Мажор. Фильм",
+  "originalTitle" : "Мажор. Фильм",
+  "genre" : "боевик",
+  "country" : "Россия",
+  "year" : 2021,
+  "director" : "Максим Полинский",
+  "rating" : 7.0,
+  "url" : "https://www.kinopoisk.ru/film/1445143/"
+}, {
+  "title" : "Предложение",
+  "originalTitle" : "The Proposal",
+  "genre" : "мелодрама",
+  "country" : "США",
+  "year" : 2009,
+  "director" : "Энн Флетчер",
+  "rating" : 7.7,
+  "url" : "https://www.kinopoisk.ru/film/321842/"
+}, {
+  "title" : "Во всё тяжкое",
+  "originalTitle" : "The Professor",
+  "genre" : "драма",
+  "country" : "США",
+  "year" : 2018,
+  "director" : "Уэйн Робертс",
+  "rating" : 7.3,
+  "url" : "https://www.kinopoisk.ru/film/1047881/"
+}, {
+  "title" : "Оно",
+  "originalTitle" : "It",
+  "genre" : "ужасы",
+  "country" : "США",
+  "year" : 2017,
+  "director" : "Андрес Мускетти",
+  "rating" : 7.3,
+  "url" : "https://www.kinopoisk.ru/film/453397/"
+}, {
+  "title" : "Домовенок Кузя",
+  "originalTitle" : "Домовенок Кузя",
+  "genre" : "комедия",
+  "country" : "Россия",
+  "year" : 2024,
+  "director" : "Виктор Лакисов",
+  "rating" : 7.7,
+  "url" : "https://www.kinopoisk.ru/film/5304528/"
+}, {
+  "title" : "По соображениям совести",
+  "originalTitle" : "Hacksaw Ridge",
+  "genre" : "биография",
+  "country" : "США",
+  "year" : 2016,
+  "director" : "Мэл Гибсон",
+  "rating" : 8.2,
+  "url" : "https://www.kinopoisk.ru/film/649917/"
+}, {
+  "title" : "Фантастические твари и где они обитают",
+  "originalTitle" : "Fantastic Beasts and Where to Find Them",
+  "genre" : "фэнтези",
+  "country" : "Великобритания",
+  "year" : 2016,
+  "director" : "Дэвид Йейтс",
+  "rating" : 7.6,
+  "url" : "https://www.kinopoisk.ru/film/797840/"
+}, {
+  "title" : "Ходячий замок",
+  "originalTitle" : "Howl no Ugoku Shiro",
+  "genre" : "аниме",
+  "country" : "Япония",
+  "year" : 2004,
+  "director" : "Хаяо Миядзаки",
+  "rating" : 8.3,
+  "url" : "https://www.kinopoisk.ru/film/49684/"
+}, {
+  "title" : "Богемская рапсодия",
+  "originalTitle" : "Bohemian Rhapsody",
+  "genre" : "биография",
+  "country" : "Великобритания",
+  "year" : 2018,
+  "director" : "Брайан Сингер",
+  "rating" : 8.0,
+  "url" : "https://www.kinopoisk.ru/film/568289/"
+}, {
+  "title" : "Век Адалин",
+  "originalTitle" : "The Age of Adaline",
+  "genre" : "драма",
+  "country" : "США",
+  "year" : 2015,
+  "director" : "Ли Толанд Кригер",
+  "rating" : 7.9,
+  "url" : "https://www.kinopoisk.ru/film/522876/"
+}, {
   "title" : "Послезавтра",
   "originalTitle" : "The Day After Tomorrow",
   "genre" : "фантастика",
@@ -1547,15 +2006,6 @@
   "rating" : 7.1,
   "url" : "https://www.kinopoisk.ru/film/5428537/"
 }, {
-  "title" : "Добро пожаловать в семью",
-  "originalTitle" : "Добро пожаловать в семью",
-  "genre" : "комедия",
-  "country" : "Беларусь",
-  "year" : 2021,
-  "director" : "Владимир Зинкевич",
-  "rating" : 7.5,
-  "url" : "https://www.kinopoisk.ru/film/4317395/"
-}, {
   "title" : "Три кота и море приключений",
   "originalTitle" : "Три кота и море приключений",
   "genre" : "мультфильм",
@@ -1564,6 +2014,15 @@
   "director" : "Дмитрий Высоцкий",
   "rating" : 8.5,
   "url" : "https://www.kinopoisk.ru/film/1445170/"
+}, {
+  "title" : "Добро пожаловать в семью",
+  "originalTitle" : "Добро пожаловать в семью",
+  "genre" : "комедия",
+  "country" : "Беларусь",
+  "year" : 2021,
+  "director" : "Владимир Зинкевич",
+  "rating" : 7.5,
+  "url" : "https://www.kinopoisk.ru/film/4317395/"
 }, {
   "title" : "Рапунцель: Запутанная история",
   "originalTitle" : "Tangled",
@@ -1645,15 +2104,6 @@
   "director" : "Том Хупер",
   "rating" : 8.1,
   "url" : "https://www.kinopoisk.ru/film/485311/"
-}, {
-  "title" : "Игра",
-  "originalTitle" : "The Game",
-  "genre" : "триллер",
-  "country" : "США",
-  "year" : 1997,
-  "director" : "Дэвид Финчер",
-  "rating" : 8.3,
-  "url" : "https://www.kinopoisk.ru/film/12198/"
 }, {
   "title" : "Трасса 60",
   "originalTitle" : "Interstate 60",
@@ -2267,15 +2717,6 @@
   "rating" : 7.6,
   "url" : "https://www.kinopoisk.ru/film/3491/"
 }, {
-  "title" : "Зависнуть в Палм-Спрингс",
-  "originalTitle" : "Palm Springs",
-  "genre" : "комедия",
-  "country" : "США",
-  "year" : 2020,
-  "director" : "Макс Барбаков",
-  "rating" : 7.3,
-  "url" : "https://www.kinopoisk.ru/film/1245524/"
-}, {
   "title" : "Батя 2. Дед",
   "originalTitle" : "Батя 2. Дед",
   "genre" : "комедия",
@@ -2284,6 +2725,15 @@
   "director" : "Илья Учитель",
   "rating" : 7.6,
   "url" : "https://www.kinopoisk.ru/film/5427621/"
+}, {
+  "title" : "Зависнуть в Палм-Спрингс",
+  "originalTitle" : "Palm Springs",
+  "genre" : "комедия",
+  "country" : "США",
+  "year" : 2020,
+  "director" : "Макс Барбаков",
+  "rating" : 7.3,
+  "url" : "https://www.kinopoisk.ru/film/1245524/"
 }, {
   "title" : "Крестный отец",
   "originalTitle" : "The Godfather",
@@ -2528,15 +2978,6 @@
   "rating" : 7.1,
   "url" : "https://www.kinopoisk.ru/film/196707/"
 }, {
-  "title" : "Отряд самоубийц: Миссия навылет",
-  "originalTitle" : "The Suicide Squad",
-  "genre" : "боевик",
-  "country" : "США",
-  "year" : 2021,
-  "director" : "Джеймс Ганн",
-  "rating" : 6.7,
-  "url" : "https://www.kinopoisk.ru/film/1008477/"
-}, {
   "title" : "Револьвер",
   "originalTitle" : "Revolver",
   "genre" : "боевик",
@@ -2545,6 +2986,15 @@
   "director" : "Гай Ричи",
   "rating" : 7.3,
   "url" : "https://www.kinopoisk.ru/film/18973/"
+}, {
+  "title" : "Отряд самоубийц: Миссия навылет",
+  "originalTitle" : "The Suicide Squad",
+  "genre" : "боевик",
+  "country" : "США",
+  "year" : 2021,
+  "director" : "Джеймс Ганн",
+  "rating" : 6.7,
+  "url" : "https://www.kinopoisk.ru/film/1008477/"
 }, {
   "title" : "Солнцестояние",
   "originalTitle" : "Midsommar",
@@ -3788,6 +4238,15 @@
   "rating" : 7.1,
   "url" : "https://www.kinopoisk.ru/film/4477067/"
 }, {
+  "title" : "Разрушение",
+  "originalTitle" : "Demolition",
+  "genre" : "драма",
+  "country" : "США",
+  "year" : 2015,
+  "director" : "Жан-Марк Валле",
+  "rating" : 7.2,
+  "url" : "https://www.kinopoisk.ru/film/842493/"
+}, {
   "title" : "Как приручить дракона 2",
   "originalTitle" : "How to Train Your Dragon 2",
   "genre" : "мультфильм",
@@ -4454,6 +4913,15 @@
   "rating" : 7.6,
   "url" : "https://www.kinopoisk.ru/film/496943/"
 }, {
+  "title" : "Зодиак",
+  "originalTitle" : "Zodiac",
+  "genre" : "триллер",
+  "country" : "США",
+  "year" : 2007,
+  "director" : "Дэвид Финчер",
+  "rating" : 7.3,
+  "url" : "https://www.kinopoisk.ru/film/102838/"
+}, {
   "title" : "Шерлок Холмс и доктор Ватсон: Знакомство",
   "originalTitle" : "Шерлок Холмс и доктор Ватсон: Знакомство",
   "genre" : "криминал",
@@ -4795,24 +5263,6 @@
   "director" : "Пол Фиг",
   "rating" : 7.0,
   "url" : "https://www.kinopoisk.ru/film/1068627/"
-}, {
-  "title" : "Разрушение",
-  "originalTitle" : "Demolition",
-  "genre" : "драма",
-  "country" : "США",
-  "year" : 2015,
-  "director" : "Жан-Марк Валле",
-  "rating" : 7.2,
-  "url" : "https://www.kinopoisk.ru/film/842493/"
-}, {
-  "title" : "Зодиак",
-  "originalTitle" : "Zodiac",
-  "genre" : "триллер",
-  "country" : "США",
-  "year" : 2007,
-  "director" : "Дэвид Финчер",
-  "rating" : 7.3,
-  "url" : "https://www.kinopoisk.ru/film/102838/"
 }, {
   "title" : "Малыш и Карлсон",
   "originalTitle" : "Малыш и Карлсон",
@@ -5525,15 +5975,6 @@
   "rating" : 7.4,
   "url" : "https://www.kinopoisk.ru/film/577/"
 }, {
-  "title" : "Люди Икс: Апокалипсис",
-  "originalTitle" : "X-Men: Apocalypse",
-  "genre" : "фантастика",
-  "country" : "США",
-  "year" : 2016,
-  "director" : "Брайан Сингер",
-  "rating" : 7.0,
-  "url" : "https://www.kinopoisk.ru/film/814016/"
-}, {
   "title" : "Заложница",
   "originalTitle" : "Taken",
   "genre" : "боевик",
@@ -5542,6 +5983,15 @@
   "director" : "Пьер Морель",
   "rating" : 7.9,
   "url" : "https://www.kinopoisk.ru/film/276376/"
+}, {
+  "title" : "Люди Икс: Апокалипсис",
+  "originalTitle" : "X-Men: Apocalypse",
+  "genre" : "фантастика",
+  "country" : "США",
+  "year" : 2016,
+  "director" : "Брайан Сингер",
+  "rating" : 7.0,
+  "url" : "https://www.kinopoisk.ru/film/814016/"
 }, {
   "title" : "Три метра над уровнем неба",
   "originalTitle" : "3 metros sobre el cielo",
@@ -5578,15 +6028,6 @@
   "director" : "Фил Лорд",
   "rating" : 7.0,
   "url" : "https://www.kinopoisk.ru/film/413080/"
-}, {
-  "title" : "Ральф",
-  "originalTitle" : "Wreck-It Ralph",
-  "genre" : "мультфильм",
-  "country" : "США",
-  "year" : 2012,
-  "director" : "Рич Мур",
-  "rating" : 7.8,
-  "url" : "https://www.kinopoisk.ru/film/586260/"
 }, {
   "title" : "Трансформеры 3: Тёмная сторона Луны",
   "originalTitle" : "Transformers: Dark of the Moon",
@@ -5867,6 +6308,15 @@
   "rating" : 7.7,
   "url" : "https://www.kinopoisk.ru/film/1060511/"
 }, {
+  "title" : "Двойной форсаж",
+  "originalTitle" : "2 Fast 2 Furious",
+  "genre" : "боевик",
+  "country" : "США",
+  "year" : 2003,
+  "director" : "Джон Синглтон",
+  "rating" : 7.2,
+  "url" : "https://www.kinopoisk.ru/film/323/"
+}, {
   "title" : "Невероятные приключения итальянцев в России",
   "originalTitle" : "Невероятные приключения итальянцев в России",
   "genre" : "комедия",
@@ -5930,14 +6380,14 @@
   "rating" : 6.0,
   "url" : "https://www.kinopoisk.ru/film/837525/"
 }, {
-  "title" : "Бойфренд из будущего",
-  "originalTitle" : "About Time",
-  "genre" : "фантастика",
+  "title" : "Ральф",
+  "originalTitle" : "Wreck-It Ralph",
+  "genre" : "мультфильм",
   "country" : "США",
-  "year" : 2013,
-  "director" : "Ричард Кёртис",
-  "rating" : 7.9,
-  "url" : "https://www.kinopoisk.ru/film/662596/"
+  "year" : 2012,
+  "director" : "Рич Мур",
+  "rating" : 7.8,
+  "url" : "https://www.kinopoisk.ru/film/586260/"
 }, {
   "title" : "Не одна дома",
   "originalTitle" : "Не одна дома",
@@ -5947,6 +6397,15 @@
   "director" : "Василий Свиридов",
   "rating" : 7.6,
   "url" : "https://www.kinopoisk.ru/film/5368248/"
+}, {
+  "title" : "Бойфренд из будущего",
+  "originalTitle" : "About Time",
+  "genre" : "фантастика",
+  "country" : "США",
+  "year" : 2013,
+  "director" : "Ричард Кёртис",
+  "rating" : 7.9,
+  "url" : "https://www.kinopoisk.ru/film/662596/"
 }, {
   "title" : "Большой Стэн",
   "originalTitle" : "Big Stan",
@@ -6217,15 +6676,6 @@
   "director" : "Мария Агранович",
   "rating" : 7.2,
   "url" : "https://www.kinopoisk.ru/film/1142667/"
-}, {
-  "title" : "Двойной форсаж",
-  "originalTitle" : "2 Fast 2 Furious",
-  "genre" : "боевик",
-  "country" : "США",
-  "year" : 2003,
-  "director" : "Джон Синглтон",
-  "rating" : 7.2,
-  "url" : "https://www.kinopoisk.ru/film/323/"
 }, {
   "title" : "Матрица: Революция",
   "originalTitle" : "The Matrix Revolutions",
@@ -7217,6 +7667,15 @@
   "rating" : 8.5,
   "url" : "https://www.kinopoisk.ru/film/1228407/"
 }, {
+  "title" : "Мастер",
+  "originalTitle" : "A Working Man",
+  "genre" : "боевик",
+  "country" : "Великобритания",
+  "year" : 2025,
+  "director" : "Дэвид Эйр",
+  "rating" : 6.9,
+  "url" : "https://www.kinopoisk.ru/film/5450038/"
+}, {
   "title" : "Миссия невыполнима: Последствия",
   "originalTitle" : "Mission: Impossible - Fallout",
   "genre" : "боевик",
@@ -7252,15 +7711,6 @@
   "director" : "Родриго Кортес",
   "rating" : 7.5,
   "url" : "https://www.kinopoisk.ru/film/470656/"
-}, {
-  "title" : "Мастер",
-  "originalTitle" : "A Working Man",
-  "genre" : "боевик",
-  "country" : "Великобритания",
-  "year" : 2025,
-  "director" : "Дэвид Эйр",
-  "rating" : 6.9,
-  "url" : "https://www.kinopoisk.ru/film/5450038/"
 }, {
   "title" : "Перл-Харбор",
   "originalTitle" : "Pearl Harbor",
@@ -7799,7 +8249,7 @@
   "country" : "Россия",
   "year" : 2024,
   "director" : "Дмитрий Высоцкий",
-  "rating" : 8.3,
+  "rating" : 8.2,
   "url" : "https://www.kinopoisk.ru/film/5366052/"
 }, {
   "title" : "1917",
@@ -8423,15 +8873,6 @@
   "rating" : 7.7,
   "url" : "https://www.kinopoisk.ru/film/505898/"
 }, {
-  "title" : "Ангелы и Демоны",
-  "originalTitle" : "Angels & Demons",
-  "genre" : "триллер",
-  "country" : "США",
-  "year" : 2009,
-  "director" : "Рон Ховард",
-  "rating" : 7.5,
-  "url" : "https://www.kinopoisk.ru/film/257401/"
-}, {
   "title" : "Под покровом ночи",
   "originalTitle" : "Nocturnal Animals",
   "genre" : "триллер",
@@ -8440,6 +8881,15 @@
   "director" : "Том Форд",
   "rating" : 7.3,
   "url" : "https://www.kinopoisk.ru/film/909898/"
+}, {
+  "title" : "Ангелы и Демоны",
+  "originalTitle" : "Angels & Demons",
+  "genre" : "триллер",
+  "country" : "США",
+  "year" : 2009,
+  "director" : "Рон Ховард",
+  "rating" : 7.5,
+  "url" : "https://www.kinopoisk.ru/film/257401/"
 }, {
   "title" : "Повелитель бури",
   "originalTitle" : "The Hurt Locker",
@@ -8548,904 +8998,4 @@
   "director" : "Мартин Скорсезе",
   "rating" : 7.7,
   "url" : "https://www.kinopoisk.ru/film/678/"
-}, {
-  "title" : "Сноуден",
-  "originalTitle" : "Snowden",
-  "genre" : "триллер",
-  "country" : "США",
-  "year" : 2016,
-  "director" : "Оливер Стоун",
-  "rating" : 7.2,
-  "url" : "https://www.kinopoisk.ru/film/843831/"
-}, {
-  "title" : "Карлсон вернулся",
-  "originalTitle" : "Карлсон вернулся",
-  "genre" : "мультфильм",
-  "country" : "СССР",
-  "year" : 1970,
-  "director" : "Борис Степанцев",
-  "rating" : 8.5,
-  "url" : "https://www.kinopoisk.ru/film/44718/"
-}, {
-  "title" : "Команда «А»",
-  "originalTitle" : "The A-Team",
-  "genre" : "боевик",
-  "country" : "США",
-  "year" : 2010,
-  "director" : "Джо Карнахан",
-  "rating" : 7.4,
-  "url" : "https://www.kinopoisk.ru/film/96452/"
-}, {
-  "title" : "8 миля",
-  "originalTitle" : "8 Mile",
-  "genre" : "драма",
-  "country" : "США",
-  "year" : 2002,
-  "director" : "Кёртис Хэнсон",
-  "rating" : 7.7,
-  "url" : "https://www.kinopoisk.ru/film/581/"
-}, {
-  "title" : "Разрисованная вуаль",
-  "originalTitle" : "The Painted Veil",
-  "genre" : "драма",
-  "country" : "США",
-  "year" : 2006,
-  "director" : "Джон Кёрран",
-  "rating" : 7.9,
-  "url" : "https://www.kinopoisk.ru/film/102201/"
-}, {
-  "title" : "Невезучие",
-  "originalTitle" : "Tais-toi!",
-  "genre" : "комедия",
-  "country" : "Франция",
-  "year" : 2003,
-  "director" : "Франсис Вебер",
-  "rating" : 7.8,
-  "url" : "https://www.kinopoisk.ru/film/14287/"
-}, {
-  "title" : "Рыцари справедливости",
-  "originalTitle" : "Retfærdighedens ryttere",
-  "genre" : "драма",
-  "country" : "Дания",
-  "year" : 2020,
-  "director" : "Андерс Томас Йенсен",
-  "rating" : 7.4,
-  "url" : "https://www.kinopoisk.ru/film/1345158/"
-}, {
-  "title" : "Она – мужчина",
-  "originalTitle" : "She's the Man",
-  "genre" : "мелодрама",
-  "country" : "США",
-  "year" : 2005,
-  "director" : "Энди Фикмен",
-  "rating" : 6.9,
-  "url" : "https://www.kinopoisk.ru/film/105053/"
-}, {
-  "title" : "Тачки 3",
-  "originalTitle" : "Cars 3",
-  "genre" : "мультфильм",
-  "country" : "США",
-  "year" : 2017,
-  "director" : "Брайан Фи",
-  "rating" : 7.3,
-  "url" : "https://www.kinopoisk.ru/film/839646/"
-}, {
-  "title" : "На гребне волны",
-  "originalTitle" : "Point Break",
-  "genre" : "боевик",
-  "country" : "Япония",
-  "year" : 1991,
-  "director" : "Кэтрин Бигелоу",
-  "rating" : 7.9,
-  "url" : "https://www.kinopoisk.ru/film/1990/"
-}, {
-  "title" : "Собиратель душ",
-  "originalTitle" : "Longlegs",
-  "genre" : "триллер",
-  "country" : "Канада",
-  "year" : 2023,
-  "director" : "Осгуд Перкинс",
-  "rating" : 5.9,
-  "url" : "https://www.kinopoisk.ru/film/5212124/"
-}, {
-  "title" : "Время ведьм",
-  "originalTitle" : "Season of the Witch",
-  "genre" : "фэнтези",
-  "country" : "США",
-  "year" : 2010,
-  "director" : "Доминик Сена",
-  "rating" : 6.2,
-  "url" : "https://www.kinopoisk.ru/film/197243/"
-}, {
-  "title" : "Зомби по имени Шон",
-  "originalTitle" : "Shaun of the Dead",
-  "genre" : "ужасы",
-  "country" : "Великобритания",
-  "year" : 2004,
-  "director" : "Эдгар Райт",
-  "rating" : 7.3,
-  "url" : "https://www.kinopoisk.ru/film/64021/"
-}, {
-  "title" : "Трансформеры: Последний рыцарь",
-  "originalTitle" : "Transformers: The Last Knight",
-  "genre" : "фантастика",
-  "country" : "США",
-  "year" : 2017,
-  "director" : "Майкл Бэй",
-  "rating" : 5.7,
-  "url" : "https://www.kinopoisk.ru/film/811609/"
-}, {
-  "title" : "Сумерки. Сага. Рассвет: Часть 1",
-  "originalTitle" : "The Twilight Saga: Breaking Dawn - Part 1",
-  "genre" : "фэнтези",
-  "country" : "США",
-  "year" : 2011,
-  "director" : "Билл Кондон",
-  "rating" : 5.9,
-  "url" : "https://www.kinopoisk.ru/film/432424/"
-}, {
-  "title" : "Блеф",
-  "originalTitle" : "Bluff storia di truffe e di imbroglioni",
-  "genre" : "комедия",
-  "country" : "Италия",
-  "year" : 1976,
-  "director" : "Серджио Корбуччи",
-  "rating" : 8.2,
-  "url" : "https://www.kinopoisk.ru/film/10179/"
-}, {
-  "title" : "Скрытые фигуры",
-  "originalTitle" : "Hidden Figures",
-  "genre" : "драма",
-  "country" : "США",
-  "year" : 2016,
-  "director" : "Тед Мелфи",
-  "rating" : 8.0,
-  "url" : "https://www.kinopoisk.ru/film/966036/"
-}, {
-  "title" : "Как отделаться от парня за 10 дней",
-  "originalTitle" : "How to Lose a Guy in 10 Days",
-  "genre" : "мелодрама",
-  "country" : "США",
-  "year" : 2003,
-  "director" : "Дональд Питри",
-  "rating" : 7.3,
-  "url" : "https://www.kinopoisk.ru/film/704/"
-}, {
-  "title" : "Чужой: Завет",
-  "originalTitle" : "Alien: Covenant",
-  "genre" : "ужасы",
-  "country" : "Великобритания",
-  "year" : 2017,
-  "director" : "Ридли Скотт",
-  "rating" : 6.1,
-  "url" : "https://www.kinopoisk.ru/film/695548/"
-}, {
-  "title" : "10 жизней",
-  "originalTitle" : "10 Lives",
-  "genre" : "мультфильм",
-  "country" : "Великобритания",
-  "year" : 2024,
-  "director" : "Кристофер Дженкинс",
-  "rating" : 7.9,
-  "url" : "https://www.kinopoisk.ru/film/1140005/"
-}, {
-  "title" : "Хулиганы",
-  "originalTitle" : "Green Street",
-  "genre" : "драма",
-  "country" : "Великобритания",
-  "year" : 2005,
-  "director" : "Лекси Александр",
-  "rating" : 8.0,
-  "url" : "https://www.kinopoisk.ru/film/77444/"
-}, {
-  "title" : "Кто я",
-  "originalTitle" : "Who Am I - Kein System ist sicher",
-  "genre" : "фантастика",
-  "country" : "Германия",
-  "year" : 2014,
-  "director" : "Баран бо Одар",
-  "rating" : 7.4,
-  "url" : "https://www.kinopoisk.ru/film/779602/"
-}, {
-  "title" : "Роднина",
-  "originalTitle" : "Роднина",
-  "genre" : "спорт",
-  "country" : "Россия",
-  "year" : 2025,
-  "director" : "Константин Статский",
-  "rating" : 8.3,
-  "url" : "https://www.kinopoisk.ru/film/5089019/"
-}, {
-  "title" : "Индиана Джонс и последний крестовый поход",
-  "originalTitle" : "Indiana Jones and the Last Crusade",
-  "genre" : "приключения",
-  "country" : "США",
-  "year" : 1989,
-  "director" : "Стивен Спилберг",
-  "rating" : 8.1,
-  "url" : "https://www.kinopoisk.ru/film/472/"
-}, {
-  "title" : "Мрачные тени",
-  "originalTitle" : "Dark Shadows",
-  "genre" : "фэнтези",
-  "country" : "США",
-  "year" : 2012,
-  "director" : "Тим Бёртон",
-  "rating" : 6.6,
-  "url" : "https://www.kinopoisk.ru/film/395060/"
-}, {
-  "title" : "По следам бременских музыкантов",
-  "originalTitle" : "По следам бременских музыкантов",
-  "genre" : "мультфильм",
-  "country" : "СССР",
-  "year" : 1973,
-  "director" : "Василий Ливанов",
-  "rating" : 8.4,
-  "url" : "https://www.kinopoisk.ru/film/43009/"
-}, {
-  "title" : "Рядовой Чээрин",
-  "originalTitle" : "Рядовой Чээрин",
-  "genre" : "военный",
-  "country" : "Россия",
-  "year" : 2021,
-  "director" : "Дмитрий Кольцов",
-  "rating" : 7.4,
-  "url" : "https://www.kinopoisk.ru/film/4418992/"
-}, {
-  "title" : "Неожиданные связи",
-  "originalTitle" : "Cocorico",
-  "genre" : "комедия",
-  "country" : "Франция",
-  "year" : 2024,
-  "director" : "Жюльен Эрве",
-  "rating" : 7.2,
-  "url" : "https://www.kinopoisk.ru/film/4992369/"
-}, {
-  "title" : "Аритмия",
-  "originalTitle" : "Аритмия",
-  "genre" : "мелодрама",
-  "country" : "Россия",
-  "year" : 2017,
-  "director" : "Борис Хлебников",
-  "rating" : 7.7,
-  "url" : "https://www.kinopoisk.ru/film/992605/"
-}, {
-  "title" : "Повелитель ветра",
-  "originalTitle" : "Повелитель ветра",
-  "genre" : "драма",
-  "country" : "Россия",
-  "year" : 2023,
-  "director" : "Игорь Волошин",
-  "rating" : 7.7,
-  "url" : "https://www.kinopoisk.ru/film/1253841/"
-}, {
-  "title" : "Маша и Медведь: Скажите «Ой!»",
-  "originalTitle" : "Маша и Медведь: Скажите «Ой!»",
-  "genre" : "мультфильм",
-  "country" : "Россия",
-  "year" : 2023,
-  "director" : "Артем Наумов",
-  "rating" : 8.2,
-  "url" : "https://www.kinopoisk.ru/film/5264991/"
-}, {
-  "title" : "Географ глобус пропил",
-  "originalTitle" : "Географ глобус пропил",
-  "genre" : "драма",
-  "country" : "Россия",
-  "year" : 2013,
-  "director" : "Александр Велединский",
-  "rating" : 7.4,
-  "url" : "https://www.kinopoisk.ru/film/653696/"
-}, {
-  "title" : "Сталкер",
-  "originalTitle" : "Сталкер",
-  "genre" : "фантастика",
-  "country" : "СССР",
-  "year" : 1979,
-  "director" : "Андрей Тарковский",
-  "rating" : 8.1,
-  "url" : "https://www.kinopoisk.ru/film/43970/"
-}, {
-  "title" : "12 обезьян",
-  "originalTitle" : "Twelve Monkeys",
-  "genre" : "фантастика",
-  "country" : "США",
-  "year" : 1995,
-  "director" : "Терри Гиллиам",
-  "rating" : 7.8,
-  "url" : "https://www.kinopoisk.ru/film/502/"
-}, {
-  "title" : "Служанка",
-  "originalTitle" : "Agassi",
-  "genre" : "мелодрама",
-  "country" : "Корея Южная",
-  "year" : 2016,
-  "director" : "Пак Чхан-ук",
-  "rating" : 7.7,
-  "url" : "https://www.kinopoisk.ru/film/851960/"
-}, {
-  "title" : "Уцелевший",
-  "originalTitle" : "Lone Survivor",
-  "genre" : "военный",
-  "country" : "США",
-  "year" : 2013,
-  "director" : "Питер Берг",
-  "rating" : 7.1,
-  "url" : "https://www.kinopoisk.ru/film/462356/"
-}, {
-  "title" : "Дитя погоды",
-  "originalTitle" : "Tenki no ko",
-  "genre" : "аниме",
-  "country" : "Япония",
-  "year" : 2019,
-  "director" : "Макото Синкай",
-  "rating" : 8.0,
-  "url" : "https://www.kinopoisk.ru/film/1219417/"
-}, {
-  "title" : "Семейный бюджет",
-  "originalTitle" : "Семейный бюджет",
-  "genre" : "комедия",
-  "country" : "Россия",
-  "year" : 2021,
-  "director" : "Евгений Абызов",
-  "rating" : 6.6,
-  "url" : "https://www.kinopoisk.ru/film/1301880/"
-}, {
-  "title" : "СамоИрония судьбы",
-  "originalTitle" : "СамоИрония судьбы",
-  "genre" : "комедия",
-  "country" : "Россия",
-  "year" : 2022,
-  "director" : "Миша Семичев",
-  "rating" : 6.5,
-  "url" : "https://www.kinopoisk.ru/film/5215602/"
-}, {
-  "title" : "Собачья жизнь",
-  "originalTitle" : "A Dog's Purpose",
-  "genre" : "фэнтези",
-  "country" : "США",
-  "year" : 2017,
-  "director" : "Лассе Халльстрём",
-  "rating" : 8.1,
-  "url" : "https://www.kinopoisk.ru/film/571896/"
-}, {
-  "title" : "Матрица: Воскрешение",
-  "originalTitle" : "The Matrix Resurrections",
-  "genre" : "фантастика",
-  "country" : "США",
-  "year" : 2021,
-  "director" : "Лана Вачовски",
-  "rating" : 5.7,
-  "url" : "https://www.kinopoisk.ru/film/1294123/"
-}, {
-  "title" : "Не/смотря ни на что",
-  "originalTitle" : "Mein Blind Date mit dem Leben",
-  "genre" : "комедия",
-  "country" : "Германия",
-  "year" : 2017,
-  "director" : "Марк Ротемунд",
-  "rating" : 7.9,
-  "url" : "https://www.kinopoisk.ru/film/887535/"
-}, {
-  "title" : "Перси Джексон и похититель молний",
-  "originalTitle" : "Percy Jackson & the Olympians: The Lightning Thief",
-  "genre" : "фэнтези",
-  "country" : "США",
-  "year" : 2010,
-  "director" : "Крис Коламбус",
-  "rating" : 6.2,
-  "url" : "https://www.kinopoisk.ru/film/403986/"
-}, {
-  "title" : "Иллюзия контроля",
-  "originalTitle" : "Иллюзия контроля",
-  "genre" : "триллер",
-  "country" : "Великобритания",
-  "year" : 2022,
-  "director" : "Владэк Занковски",
-  "rating" : 7.0,
-  "url" : "https://www.kinopoisk.ru/film/1107082/"
-}, {
-  "title" : "Последний рубеж",
-  "originalTitle" : "Homefront",
-  "genre" : "боевик",
-  "country" : "США",
-  "year" : 2013,
-  "director" : "Гэри Фледер",
-  "rating" : 6.5,
-  "url" : "https://www.kinopoisk.ru/film/683766/"
-}, {
-  "title" : "Весна на Заречной улице",
-  "originalTitle" : "Весна на Заречной улице",
-  "genre" : "драма",
-  "country" : "СССР",
-  "year" : 1956,
-  "director" : "Марлен Хуциев",
-  "rating" : 8.1,
-  "url" : "https://www.kinopoisk.ru/film/45748/"
-}, {
-  "title" : "Клаус",
-  "originalTitle" : "Klaus",
-  "genre" : "мультфильм",
-  "country" : "Испания",
-  "year" : 2019,
-  "director" : "Серхио Паблос",
-  "rating" : 8.7,
-  "url" : "https://www.kinopoisk.ru/film/957887/"
-}, {
-  "title" : "Бумер: Фильм второй",
-  "originalTitle" : "Бумер: Фильм второй",
-  "genre" : "драма",
-  "country" : "Россия",
-  "year" : 2006,
-  "director" : "Пётр Буслов",
-  "rating" : 6.2,
-  "url" : "https://www.kinopoisk.ru/film/79883/"
-}, {
-  "title" : "Три орешка для Золушки",
-  "originalTitle" : "Tre nøtter til Askepott",
-  "genre" : "фэнтези",
-  "country" : "Норвегия",
-  "year" : 2021,
-  "director" : "Сесиль А. Мосли",
-  "rating" : 6.7,
-  "url" : "https://www.kinopoisk.ru/film/1255291/"
-}, {
-  "title" : "Верность",
-  "originalTitle" : "Верность",
-  "genre" : "драма",
-  "country" : "Россия",
-  "year" : 2019,
-  "director" : "Нигина Сайфуллаева",
-  "rating" : 6.2,
-  "url" : "https://www.kinopoisk.ru/film/1261581/"
-}, {
-  "title" : "Двенадцать друзей Оушена",
-  "originalTitle" : "Ocean's Twelve",
-  "genre" : "триллер",
-  "country" : "США",
-  "year" : 2004,
-  "director" : "Стивен Содерберг",
-  "rating" : 7.7,
-  "url" : "https://www.kinopoisk.ru/film/18294/"
-}, {
-  "title" : "Горько!",
-  "originalTitle" : "Горько!",
-  "genre" : "комедия",
-  "country" : "Россия",
-  "year" : 2013,
-  "director" : "Жора Крыжовников",
-  "rating" : 5.3,
-  "url" : "https://www.kinopoisk.ru/film/718558/"
-}, {
-  "title" : "Знакомство с родителями",
-  "originalTitle" : "Meet the Parents",
-  "genre" : "мелодрама",
-  "country" : "США",
-  "year" : 2000,
-  "director" : "Джей Роуч",
-  "rating" : 7.5,
-  "url" : "https://www.kinopoisk.ru/film/750/"
-}, {
-  "title" : "Рыцарь дня",
-  "originalTitle" : "Knight and Day",
-  "genre" : "боевик",
-  "country" : "США",
-  "year" : 2010,
-  "director" : "Джеймс Мэнголд",
-  "rating" : 7.0,
-  "url" : "https://www.kinopoisk.ru/film/455188/"
-}, {
-  "title" : "Приглашение к убийству",
-  "originalTitle" : "Invitation to a Murder",
-  "genre" : "триллер",
-  "country" : "США",
-  "year" : 2022,
-  "director" : "Стивен Шимек",
-  "rating" : 6.5,
-  "url" : "https://www.kinopoisk.ru/film/4746012/"
-}, {
-  "title" : "Очень плохие мамочки",
-  "originalTitle" : "Bad Moms",
-  "genre" : "комедия",
-  "country" : "США",
-  "year" : 2016,
-  "director" : "Джон Лукас",
-  "rating" : 6.5,
-  "url" : "https://www.kinopoisk.ru/film/905378/"
-}, {
-  "title" : "Работа без авторства",
-  "originalTitle" : "Werk ohne Autor",
-  "genre" : "биография",
-  "country" : "Германия",
-  "year" : 2018,
-  "director" : "Флориан Хенкель фон Доннерсмарк",
-  "rating" : 8.1,
-  "url" : "https://www.kinopoisk.ru/film/959606/"
-}, {
-  "title" : "Эверест",
-  "originalTitle" : "Everest",
-  "genre" : "приключения",
-  "country" : "Великобритания",
-  "year" : 2015,
-  "director" : "Бальтасар Кормакур",
-  "rating" : 7.2,
-  "url" : "https://www.kinopoisk.ru/film/739642/"
-}, {
-  "title" : "Терминатор 3: Восстание машин",
-  "originalTitle" : "Terminator 3: Rise of the Machines",
-  "genre" : "фантастика",
-  "country" : "США",
-  "year" : 2003,
-  "director" : "Джонатан Мостоу",
-  "rating" : 6.8,
-  "url" : "https://www.kinopoisk.ru/film/319/"
-}, {
-  "title" : "Без лица",
-  "originalTitle" : "Face/Off",
-  "genre" : "боевик",
-  "country" : "США",
-  "year" : 1997,
-  "director" : "Джон Ву",
-  "rating" : 7.8,
-  "url" : "https://www.kinopoisk.ru/film/4606/"
-}, {
-  "title" : "Зеркала",
-  "originalTitle" : "Mirrors",
-  "genre" : "ужасы",
-  "country" : "США",
-  "year" : 2008,
-  "director" : "Александр Ажа",
-  "rating" : 7.1,
-  "url" : "https://www.kinopoisk.ru/film/263447/"
-}, {
-  "title" : "Дикие истории",
-  "originalTitle" : "Relatos salvajes",
-  "genre" : "триллер",
-  "country" : "Аргентина",
-  "year" : 2014,
-  "director" : "Дамиан Сифрон",
-  "rating" : 7.7,
-  "url" : "https://www.kinopoisk.ru/film/775727/"
-}, {
-  "title" : "Зять",
-  "originalTitle" : "Зять",
-  "genre" : "комедия",
-  "country" : "Россия",
-  "year" : 2024,
-  "director" : "Анарио Мамедов",
-  "rating" : 6.9,
-  "url" : "https://www.kinopoisk.ru/film/5313869/"
-}, {
-  "title" : "Моя жена – киллер",
-  "originalTitle" : "Role Play",
-  "genre" : "комедия",
-  "country" : "США",
-  "year" : 2023,
-  "director" : "Тома Венсан",
-  "rating" : 6.3,
-  "url" : "https://www.kinopoisk.ru/film/4987450/"
-}, {
-  "title" : "Суини Тодд, демон-парикмахер с Флит-стрит",
-  "originalTitle" : "Sweeney Todd: The Demon Barber of Fleet Street",
-  "genre" : "мюзикл",
-  "country" : "США",
-  "year" : 2007,
-  "director" : "Тим Бёртон",
-  "rating" : 7.7,
-  "url" : "https://www.kinopoisk.ru/film/81845/"
-}, {
-  "title" : "Девять",
-  "originalTitle" : "9",
-  "genre" : "мультфильм",
-  "country" : "США",
-  "year" : 2009,
-  "director" : "Шэйн Экер",
-  "rating" : 7.4,
-  "url" : "https://www.kinopoisk.ru/film/180577/"
-}, {
-  "title" : "Вики Кристина Барселона",
-  "originalTitle" : "Vicky Cristina Barcelona",
-  "genre" : "драма",
-  "country" : "Испания",
-  "year" : 2008,
-  "director" : "Вуди Аллен",
-  "rating" : 7.2,
-  "url" : "https://www.kinopoisk.ru/film/278171/"
-}, {
-  "title" : "Ёлки-иголки",
-  "originalTitle" : "Ёлки-иголки",
-  "genre" : "комедия",
-  "country" : "Россия",
-  "year" : 2022,
-  "director" : "Александр Баршак",
-  "rating" : 7.3,
-  "url" : "https://www.kinopoisk.ru/film/4694773/"
-}, {
-  "title" : "Рождественская история",
-  "originalTitle" : "A Christmas Carol",
-  "genre" : "мультфильм",
-  "country" : "США",
-  "year" : 2009,
-  "director" : "Роберт Земекис",
-  "rating" : 7.8,
-  "url" : "https://www.kinopoisk.ru/film/391755/"
-}, {
-  "title" : "Красное уведомление",
-  "originalTitle" : "Red Notice",
-  "genre" : "боевик",
-  "country" : "США",
-  "year" : 2021,
-  "director" : "Роусон Маршалл Тёрбер",
-  "rating" : 6.6,
-  "url" : "https://www.kinopoisk.ru/film/1115099/"
-}, {
-  "title" : "Иностранец",
-  "originalTitle" : "The Foreigner",
-  "genre" : "боевик",
-  "country" : "Великобритания",
-  "year" : 2017,
-  "director" : "Мартин Кэмпбелл",
-  "rating" : 7.3,
-  "url" : "https://www.kinopoisk.ru/film/618287/"
-}, {
-  "title" : "Отец",
-  "originalTitle" : "The Father",
-  "genre" : "драма",
-  "country" : "Великобритания",
-  "year" : 2020,
-  "director" : "Флориан Зеллер",
-  "rating" : 7.8,
-  "url" : "https://www.kinopoisk.ru/film/1262160/"
-}, {
-  "title" : "Луна 2112",
-  "originalTitle" : "Moon",
-  "genre" : "фантастика",
-  "country" : "Великобритания",
-  "year" : 2009,
-  "director" : "Дункан Джонс",
-  "rating" : 7.6,
-  "url" : "https://www.kinopoisk.ru/film/406671/"
-}, {
-  "title" : "Дрянные девчонки",
-  "originalTitle" : "Mean Girls",
-  "genre" : "комедия",
-  "country" : "США",
-  "year" : 2004,
-  "director" : "Марк Уотерс",
-  "rating" : 7.0,
-  "url" : "https://www.kinopoisk.ru/film/61254/"
-}, {
-  "title" : "Восхитительно!",
-  "originalTitle" : "Délicieux",
-  "genre" : "драма",
-  "country" : "Франция",
-  "year" : 2021,
-  "director" : "Эрик Беснард",
-  "rating" : 7.7,
-  "url" : "https://www.kinopoisk.ru/film/1289766/"
-}, {
-  "title" : "Воздушный маршал",
-  "originalTitle" : "Non-Stop",
-  "genre" : "детектив",
-  "country" : "Великобритания",
-  "year" : 2014,
-  "director" : "Жауме Кольет-Серра",
-  "rating" : 7.2,
-  "url" : "https://www.kinopoisk.ru/film/606826/"
-}, {
-  "title" : "Час пик",
-  "originalTitle" : "Rush Hour",
-  "genre" : "боевик",
-  "country" : "США",
-  "year" : 1998,
-  "director" : "Бретт Рэтнер",
-  "rating" : 7.7,
-  "url" : "https://www.kinopoisk.ru/film/6345/"
-}, {
-  "title" : "Багровый пик",
-  "originalTitle" : "Crimson Peak",
-  "genre" : "ужасы",
-  "country" : "США",
-  "year" : 2015,
-  "director" : "Гильермо дель Торо",
-  "rating" : 6.7,
-  "url" : "https://www.kinopoisk.ru/film/721153/"
-}, {
-  "title" : "007: Координаты «Скайфолл»",
-  "originalTitle" : "Skyfall",
-  "genre" : "боевик",
-  "country" : "Великобритания",
-  "year" : 2012,
-  "director" : "Сэм Мендес",
-  "rating" : 7.4,
-  "url" : "https://www.kinopoisk.ru/film/408871/"
-}, {
-  "title" : "Без меня",
-  "originalTitle" : "Без меня",
-  "genre" : "драма",
-  "country" : "Россия",
-  "year" : 2018,
-  "director" : "Кирилл Плетнёв",
-  "rating" : 7.2,
-  "url" : "https://www.kinopoisk.ru/film/1049103/"
-}, {
-  "title" : "Малавита",
-  "originalTitle" : "The Family",
-  "genre" : "криминал",
-  "country" : "Франция",
-  "year" : 2013,
-  "director" : "Люк Бессон",
-  "rating" : 6.9,
-  "url" : "https://www.kinopoisk.ru/film/682669/"
-}, {
-  "title" : "Стиляги",
-  "originalTitle" : "Стиляги",
-  "genre" : "мюзикл",
-  "country" : "Россия",
-  "year" : 2008,
-  "director" : "Валерий Тодоровский",
-  "rating" : 6.9,
-  "url" : "https://www.kinopoisk.ru/film/395690/"
-}, {
-  "title" : "Люди Икс: Тёмный Феникс",
-  "originalTitle" : "X-Men: Dark Phoenix",
-  "genre" : "фантастика",
-  "country" : "США",
-  "year" : 2019,
-  "director" : "Саймон Кинберг",
-  "rating" : 5.9,
-  "url" : "https://www.kinopoisk.ru/film/1012431/"
-}, {
-  "title" : "Родители строгого режима",
-  "originalTitle" : "Родители строгого режима",
-  "genre" : "комедия",
-  "country" : "Россия",
-  "year" : 2022,
-  "director" : "Никита Владимиров",
-  "rating" : 7.2,
-  "url" : "https://www.kinopoisk.ru/film/4907342/"
-}, {
-  "title" : "Восстание планеты обезьян",
-  "originalTitle" : "Rise of the Planet of the Apes",
-  "genre" : "фантастика",
-  "country" : "США",
-  "year" : 2011,
-  "director" : "Руперт Уайатт",
-  "rating" : 7.4,
-  "url" : "https://www.kinopoisk.ru/film/463738/"
-}, {
-  "title" : "Леди и бродяга",
-  "originalTitle" : "Lady and the Tramp",
-  "genre" : "мультфильм",
-  "country" : "США",
-  "year" : 1955,
-  "director" : "Клайд Джероними",
-  "rating" : 8.2,
-  "url" : "https://www.kinopoisk.ru/film/8227/"
-}, {
-  "title" : "5 сантиметров в секунду",
-  "originalTitle" : "Byousoku 5 Centimeter",
-  "genre" : "аниме",
-  "country" : "Япония",
-  "year" : 2007,
-  "director" : "Макото Синкай",
-  "rating" : 7.9,
-  "url" : "https://www.kinopoisk.ru/film/280961/"
-}, {
-  "title" : "Финник",
-  "originalTitle" : "Финник",
-  "genre" : "мультфильм",
-  "country" : "Россия",
-  "year" : 2022,
-  "director" : "Денис Чернов",
-  "rating" : 7.8,
-  "url" : "https://www.kinopoisk.ru/film/4742512/"
-}, {
-  "title" : "Форма воды",
-  "originalTitle" : "The Shape of Water",
-  "genre" : "фантастика",
-  "country" : "США",
-  "year" : 2017,
-  "director" : "Гильермо дель Торо",
-  "rating" : 6.9,
-  "url" : "https://www.kinopoisk.ru/film/977743/"
-}, {
-  "title" : "Ночная смена",
-  "originalTitle" : "Ночная смена",
-  "genre" : "комедия",
-  "country" : "Россия",
-  "year" : 2018,
-  "director" : "Марюс Вайсберг",
-  "rating" : 6.7,
-  "url" : "https://www.kinopoisk.ru/film/1045170/"
-}, {
-  "title" : "Знакомство с Факерами",
-  "originalTitle" : "Meet the Fockers",
-  "genre" : "мелодрама",
-  "country" : "США",
-  "year" : 2004,
-  "director" : "Джей Роуч",
-  "rating" : 7.1,
-  "url" : "https://www.kinopoisk.ru/film/61439/"
-}, {
-  "title" : "Сволочи",
-  "originalTitle" : "Сволочи",
-  "genre" : "боевик",
-  "country" : "Россия",
-  "year" : 2006,
-  "director" : "Александр Атанесян",
-  "rating" : 6.7,
-  "url" : "https://www.kinopoisk.ru/film/103414/"
-}, {
-  "title" : "Охотники за разумом",
-  "originalTitle" : "Mindhunters",
-  "genre" : "ужасы",
-  "country" : "США",
-  "year" : 2004,
-  "director" : "Ренни Харлин",
-  "rating" : 7.5,
-  "url" : "https://www.kinopoisk.ru/film/8091/"
-}, {
-  "title" : "В поисках Дори",
-  "originalTitle" : "Finding Dory",
-  "genre" : "мультфильм",
-  "country" : "США",
-  "year" : 2016,
-  "director" : "Эндрю Стэнтон",
-  "rating" : 7.4,
-  "url" : "https://www.kinopoisk.ru/film/692957/"
-}, {
-  "title" : "Джонни Д.",
-  "originalTitle" : "Public Enemies",
-  "genre" : "драма",
-  "country" : "Япония",
-  "year" : 2009,
-  "director" : "Майкл Манн",
-  "rating" : 7.1,
-  "url" : "https://www.kinopoisk.ru/film/400599/"
-}, {
-  "title" : "Пункт назначения",
-  "originalTitle" : "Final Destination",
-  "genre" : "ужасы",
-  "country" : "США",
-  "year" : 2000,
-  "director" : "Джеймс Вон",
-  "rating" : 7.5,
-  "url" : "https://www.kinopoisk.ru/film/668/"
-}, {
-  "title" : "Стрельцов",
-  "originalTitle" : "Стрельцов",
-  "genre" : "биография",
-  "country" : "Россия",
-  "year" : 2020,
-  "director" : "Илья Учитель",
-  "rating" : 7.3,
-  "url" : "https://www.kinopoisk.ru/film/1167867/"
-}, {
-  "title" : "Укрась прощальное утро цветами обещания",
-  "originalTitle" : "Sayonara no asa ni yakusoku no hana o kazaro",
-  "genre" : "аниме",
-  "country" : "Япония",
-  "year" : 2018,
-  "director" : "Мари Окада",
-  "rating" : 8.3,
-  "url" : "https://www.kinopoisk.ru/film/1103852/"
-}, {
-  "title" : "Бладшот",
-  "originalTitle" : "Bloodshot",
-  "genre" : "фантастика",
-  "country" : "США",
-  "year" : 2020,
-  "director" : "Дэйв Уилсон",
-  "rating" : 5.9,
-  "url" : "https://www.kinopoisk.ru/film/512673/"
-}, {
-  "title" : "Папе снова 17",
-  "originalTitle" : "17 Again",
-  "genre" : "фэнтези",
-  "country" : "США",
-  "year" : 2009,
-  "director" : "Бёрр Стирс",
-  "rating" : 7.1,
-  "url" : "https://www.kinopoisk.ru/film/395066/"
 } ]
