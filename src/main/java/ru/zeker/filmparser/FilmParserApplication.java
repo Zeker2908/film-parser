@@ -32,11 +32,16 @@ public class FilmParserApplication implements CommandLineRunner {
 
     @Override
     public void run(String... args) throws IOException {
-       movieService.parseAndSave(movieCount, startPage);
-       movieService.exportAllMoviesToJsonFile("movies.json");
-       log.info("Parser finished");
-       log.warn("Stopping the parser...");
-       SpringApplication.exit(context, () -> 0);
-    }
+        long start = System.currentTimeMillis();
 
+        movieService.parseAndSave(movieCount, startPage);
+        movieService.exportAllMoviesToJsonFile("movies.json");
+
+        long end = System.currentTimeMillis();
+        long duration = end - start;
+
+        log.info("Parser finished in {} ms ({} seconds)", duration, duration / 1000.0);
+        log.warn("Stopping the parser...");
+        SpringApplication.exit(context, () -> 0);
+    }
 }

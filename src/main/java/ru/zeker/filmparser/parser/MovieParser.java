@@ -156,15 +156,14 @@ public class MovieParser {
 
     private MovieParseResult parseMovieElement(Element movieElement) {
         String title = movieElement.select(titleSelector).text();
-        String originalTitle = Optional.of(movieElement.select(originalTitleSelector).text())
-                .filter(s -> !s.isEmpty())
+        String originalTitle = Optional.ofNullable(movieElement.selectFirst(originalTitleSelector))
+                .map(Element::text)
                 .orElse(title);
         Double rating = parseRating(movieElement);
         String url = baseUrl + movieElement.select(urlSelector).attr("href");
         Integer year = parseYear(movieElement);
-
-        Element metaElement = movieElement.selectFirst(metaSelector);
-        MovieMeta movieMeta = MovieMeta.parseMeta(metaElement != null ? metaElement.text() : "");
+        MovieMeta movieMeta = MovieMeta.parseMeta(Optional.ofNullable(movieElement.selectFirst(metaSelector))
+                .map(Element::text).orElse(""));
 
         log.debug("Parsed movie: {}, {}, {}, {}, {}, {}, {}, {}", title, originalTitle, year, movieMeta.genre(), movieMeta.country(), movieMeta.director(), rating, url);
 
@@ -178,7 +177,6 @@ public class MovieParser {
                 .country(movieMeta.country())
                 .director(movieMeta.director())
                 .build();
-
     }
 
     private Double parseRating(Element movieElement) {
