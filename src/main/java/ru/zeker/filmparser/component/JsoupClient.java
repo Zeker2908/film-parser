@@ -3,12 +3,16 @@ package ru.zeker.filmparser.component;
 import org.jsoup.Connection;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
 
 import java.io.IOException;
 
 @Component
 public class JsoupClient {
+
+    @Value("${parser.timeout.ms}")
+    private Integer timeout;
 
     public Document fetchDocument(String url) throws IOException {
         Connection connection = Jsoup.connect(url)
@@ -53,6 +57,7 @@ public class JsoupClient {
                 .cookie("location", "1")
                 .cookie("coockoos", "1")
                 .method(org.jsoup.Connection.Method.GET)
+                .timeout(timeout)
                 .ignoreContentType(true);
 
         return connection.get();

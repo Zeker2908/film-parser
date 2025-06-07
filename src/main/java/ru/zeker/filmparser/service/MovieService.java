@@ -25,18 +25,19 @@ public class MovieService {
     private final ObjectMapper objectMapper;
 
     @Transactional
-    public int parseAndSave(int movieCount, int startPage) {
+    public void parseAndSave(int movieCount, int startPage) {
         List<MovieParseResult> results = movieParser.parse(movieCount, startPage);
         log.info("Parsed {} movies", results.size());
         List<String> urls = results.stream().map(MovieParseResult::getUrl).toList();
         Set<String> existingUrls = movieRepository.findUrlsIn(urls);
 
-        return movieRepository.saveAll(
+        int savedSize =  movieRepository.saveAll(
                 results.stream()
                         .filter(m -> !existingUrls.contains(m.getUrl()))
                         .map(movieMapper::toEntity)
                         .toList()
         ).size();
+        log.info("Saved {} new movies", savedSize);
     }
 
     public void exportAllMoviesToJsonFile(String filename) throws IOException {

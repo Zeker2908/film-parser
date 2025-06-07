@@ -89,7 +89,6 @@ public class MovieParser {
                     break;
                 } catch (PageNotFoundException ex) {
                     log.error("The page was not loaded because it does not exist");
-                    log.warn("Stopping the parser...");
                     return results;
                 } catch (CaptchaException ex) {
                     log.warn("The page was not loaded because of a captcha");
