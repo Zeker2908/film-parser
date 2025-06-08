@@ -14,7 +14,7 @@ parser:
   films-url: /lists/movies/?b=films
   page-size: 50
   timeout:
-    ms: 5000
+    ms: 10000
   max-retries: 5
   selectors:
     movie: ".styles_root__ti07r"

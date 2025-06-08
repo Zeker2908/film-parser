@@ -117,14 +117,12 @@ public class MovieParser {
         try {
             Document doc = jsoupClient.fetchDocument(url);
 
-            String pageSource = doc.html();
-
-            if (isCaptchaPage(pageSource)) {
+            if (isCaptchaPage(doc)) {
                 log.warn("Captcha detected on page: {}", url);
                 throw new CaptchaException("CAPTCHA page detected!");
             }
 
-            if (isPageNotFound(pageSource)) {
+            if (isPageNotFound(doc)) {
                 log.warn("Page not found: {}", url);
                 throw new PageNotFoundException("Page not found");
             }
@@ -203,15 +201,18 @@ public class MovieParser {
         } catch (InterruptedException ignored) {}
     }
 
-    private boolean isCaptchaPage(String pageSource) {
+    private boolean isCaptchaPage(Document doc) {
+        String pageSource = doc.html();
         return pageSource.contains("captcha") ||
                 pageSource.contains("recaptcha") ||
                 pageSource.contains("Подтвердите, что вы не робот");
     }
 
-    private boolean isPageNotFound(String pageSource) {
-        return pageSource.contains("Ничего не найдено") ||
-                pageSource.contains("Попробуйте изменить параметры фильтра");
+    private boolean isPageNotFound(Document doc) {
+        return Optional.ofNullable(doc.selectFirst(".styles_heading__F1VCE"))
+                .map(Element::text)
+                .orElse("")
+                .contains("Страница не найдена");
     }
 
 }
