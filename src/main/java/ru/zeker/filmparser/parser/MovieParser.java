@@ -62,6 +62,9 @@ public class MovieParser {
     @Value("${parser.selectors.original-title}")
     private String originalTitleSelector;
 
+    @Value("${parser.selectors.not-found}")
+    private String notFoundSelector;
+
 
 
     public List<MovieParseResult> parse(int movieCount, int startPage) {
@@ -209,7 +212,7 @@ public class MovieParser {
     }
 
     private boolean isPageNotFound(Document doc) {
-        return Optional.ofNullable(doc.selectFirst(".styles_heading__F1VCE"))
+        return Optional.ofNullable(doc.selectFirst(notFoundSelector))
                 .map(Element::text)
                 .orElse("")
                 .contains("Страница не найдена");

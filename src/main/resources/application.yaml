@@ -24,3 +24,4 @@ parser:
     url: ".base-movie-main-info_link__YwtP1"
     meta: ".desktop-list-main-info_truncatedText__IMQRP"
     year: ".desktop-list-main-info_secondaryText__M_aus"
+    not-found: ".styles_heading__F1VCE"
